@@ -6,8 +6,8 @@
   <title>Battlelines</title>
   
 <script type="module">
-import init, * as bindings from '/battlelines-game/battlelines-9f22c2c906e0ed3c.js';
-const wasm = await init({ module_or_path: '/battlelines-game/battlelines-9f22c2c906e0ed3c_bg.wasm' });
+import init, * as bindings from '/battlelines-game/battlelines-fe341775bb5ffe35.js';
+const wasm = await init({ module_or_path: '/battlelines-game/battlelines-fe341775bb5ffe35_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -40,6 +40,6 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
       outline: none;
     }
   </style>
-<link rel="modulepreload" href="/battlelines-game/battlelines-9f22c2c906e0ed3c.js" crossorigin="anonymous" integrity="sha384-hZ/mq0qVFcOuoSpJqAPaYG5XDoxl0DwvwXV5aQA6hiqmbTP+yuM1QgvYRRrN+42l"><link rel="preload" href="/battlelines-game/battlelines-9f22c2c906e0ed3c_bg.wasm" crossorigin="anonymous" integrity="sha384-gfMs12eBFBOzoLhERKMqcWXsSSdCtkzyXcD6njk8NnUoBCH58BGA9hVMalvVswLN" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/battlelines-game/battlelines-fe341775bb5ffe35.js" crossorigin="anonymous" integrity="sha384-hZ/mq0qVFcOuoSpJqAPaYG5XDoxl0DwvwXV5aQA6hiqmbTP+yuM1QgvYRRrN+42l"><link rel="preload" href="/battlelines-game/battlelines-fe341775bb5ffe35_bg.wasm" crossorigin="anonymous" integrity="sha384-mVJUr9lxhKAmJvqLYBB/rPSaKyZadEeTjZlmrDliceokqjMelR+fl5ydqbtAEATJ" as="fetch" type="application/wasm"></head>
 <body></body>
 </html>
